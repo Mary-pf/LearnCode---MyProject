@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.navbar{
+    line-height: 5.5rem;
+    border-radius: 1rem;
+}
+
+.bi{
+    background: none;
+    position: absolute;
+    top: 2.9rem;
+    right: 38rem;
+    width: 700px;
+    height: 40px;
+    padding: 5px;
+    color: black;
+}
+
+.bg-dark-subtle{
+    background-color: #a5b1c2
+}
+
+.navbar-bottom{
+    line-height: 3rem;
+    border-radius: 0 0 1rem 1rem;
+}
+
+.navbar-bottom li a{
+    color: black !important;
+}
+
+.navbar-bottom li a:hover{
+    color: black;
+    opacity: .8;
+}
+
