@@ -1,0 +1,706 @@
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>BootStrap-Time</title>
+</head>
+
+<body id="Home">
+    <header class="d-flex justify-content-between mt-4 position-relative">
+        <div class="col">
+            <div class="row mx-2">
+                <nav class="navbar navbar-expand-md bg-light navbar-light">
+                    <div class="container">
+                        <div class="d-flex">
+                            <div class="col-md-3">
+                                <a class="navbar-brand" href="#">
+                                    <img src="./Images/LOGO/C.jpg" class="img-fluid rounded pe-5 my-2 w-75 h-75"
+                                        alt="LOGO">
+                                </a>
+                            </div>
+                            <div class="col-md-9">
+                                <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse d-flex justify-content-evenly"
+                                    id="navbarSupportedContent">
+                                    <form class="my-3" role="search">
+                                        <input class="form-control" style="width: 34rem;" type="search"
+                                            placeholder="Search" aria-label="Search">
+                                        <a href="#">
+                                            <i class="bi bi-search"></i>
+                                        </a>
+                                    </form>
+                                    <div class="my-icon">
+                                        <div class="btn d-flex align-items-center" aria-label="Basic example">
+                                            <div>
+                                                <button type="button" class="btn" style="font-size:1.7rem">
+                                                    <span class="bi bi-circle-half"></span></button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn" style="font-size:1.7rem">
+                                                    <span class="bi bi-basket-fill"></span>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn" style="font-size:1.7rem">
+                                                    <span class="bi bi-bell-fill"></span>
+                                                </button>
+                                            </div>
+                                            <div>
+                                                <!-- Example single danger button -->
+                                                <div class="btn-group dropstart">
+                                                    <button type="button" class="btn btn-sm" data-bs-toggle="dropdown"
+                                                        aria-expanded="false" style="font-size:2rem">
+                                                        <span class="bi bi-person-circle"></span>
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-light mt-5 rounded-3"
+                                                        style="width: 17rem;">
+                                                        <li><a class="dropdown-item" href="#">
+                                                                <span class="bi bi-person-circle pe-1"
+                                                                    style="font-size: 1.3rem"></span>مشاهده پنل
+                                                                کاربری</a>
+                                                        </li>
+
+                                                        <li class="d-flex items-center justify-content-evenly">
+                                                            <a class="dropdown-item" href="#">کیف پول</a>
+                                                            <p class="pe-3 pt-2 text-muted" style="font-size: 11px;">
+                                                                0تومان</p>
+                                                        </li>
+                                                        <!-- <li>
+                                                            <a class="dropdown-item d-flex px-3 text-secondary"
+                                                                href="#">
+                                                                <div class="d-flex">
+                                                                    <span class="ps-2">
+                                                                        <a href="#">کیف پول</a>
+                                                                    </span>
+                                                                    <span>
+                                                                        <p class="pe-3 pt-2 text-muted" style="font-size: 11px;">
+                                                                            0تومان</p>
+                                                                        </span>
+                                                                </div>
+                                                            </a>
+                                                        </li> -->
+
+                                                        <li class="d-flex items-center justify-content-evenly">
+                                                            <a class="dropdown-item" href="#">تجربه کاربری</a>
+                                                            <p class="pe-3 pt-2 text-success" style="font-size: 14px;">
+                                                                458تجربه</p>
+                                                        </li>
+                                                        <li class="d-flex items-center justify-content-end">
+                                                            <a class="dropdown-item" href="#">باقیمانده اشتراک</a>
+                                                            <p class="pt-2 ps-1 text-warning" style="font-size: 14px;">
+                                                                عضو ویژه نیستید</p>
+                                                        </li>
+                                                        <li>
+                                                            <hr class="dropdown-divider text-muted">
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex items-center px-3 text-secondary"
+                                                                href="#">
+                                                                <div class="d-flex items-center">
+                                                                    <svg class="pt-1" width="25" height="25"
+                                                                        viewBox="0 0 21 21" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M13.8862 13.2399C13.9552 14.801 12.6953 16.1211 11.0724 16.1874C10.9529 16.1925 5.12549 16.1807 5.12549 16.1807C3.5105 16.3033 2.09705 15.1428 1.96966 13.5876C1.96007 13.4717 1.96268 7.21902 1.96268 7.21902C1.89114 5.65627 3.14928 4.33284 4.773 4.26398C4.89428 4.2581 10.7138 4.26902 10.7138 4.26902C12.3367 4.1481 13.7545 5.31701 13.8801 6.87976C13.8889 6.99229 13.8862 13.2399 13.8862 13.2399Z"
+                                                                            stroke="currentColor" stroke-width="1.7"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path
+                                                                            d="M13.8889 8.50365L16.6949 6.20729C17.3902 5.6381 18.4331 6.13401 18.4323 7.03125L18.422 13.2932C18.4212 14.1905 17.3774 14.6821 16.6838 14.1129L13.8889 11.8166"
+                                                                            stroke="currentColor" stroke-width="1.7"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                    <span class="ps-2">دوره ها</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex items-center px-3 text-secondary"
+                                                                href="#">
+                                                                <div class="d-flex items-center">
+                                                                    <svg class="pt-1" width="25" height="25"
+                                                                        viewBox="0 0 21 21" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M18.4382 12.2664H14.9887C13.7221 12.2656 12.6955 11.2398 12.6947 9.9732C12.6947 8.70663 13.7221 7.68079 14.9887 7.68001H18.4382"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path d="M15.3789 9.92071H15.1133"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                                            d="M6.60165 2.55625H13.9666C16.436 2.55625 18.438 4.55823 18.438 7.0277V13.1431C18.438 15.6126 16.436 17.6146 13.9666 17.6146H6.60165C4.13218 17.6146 2.1302 15.6126 2.1302 13.1431V7.0277C2.1302 4.55823 4.13218 2.55625 6.60165 2.55625Z"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path d="M5.99492 6.42315H10.5953"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                    <span class="ps-2">مالی و اشتراک</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex items-center px-3 text-secondary"
+                                                                href="#">
+                                                                <div class="d-flex items-center">
+                                                                    <svg class="pt-1" width="23" height="23"
+                                                                        viewBox="0 0 19 19" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <rect x="0.75" y="0.75" width="17.5"
+                                                                            height="17.5" rx="5.25"
+                                                                            stroke="currentColor" stroke-width="1.5">
+                                                                        </rect>
+                                                                        <path
+                                                                            d="M9.50018 4.74982C8.75758 4.74982 8.14246 5.03617 7.72098 5.51032C7.31246 5.96991 7.12518 6.5603 7.12518 7.12482C7.12518 8.11758 7.70632 8.80324 8.08418 9.24907L8.1044 9.27293C8.55085 9.80006 8.70852 10.0222 8.70852 10.2915C8.70852 10.7287 9.06296 11.0832 9.50018 11.0832C9.93741 11.0832 10.2918 10.7287 10.2918 10.2915C10.2918 9.39408 9.73447 8.7428 9.38037 8.32905C9.35682 8.30153 9.33416 8.27506 9.31263 8.24964C8.89792 7.75998 8.70852 7.48219 8.70852 7.12482C8.70852 6.89767 8.78513 6.6964 8.90438 6.56223C9.01069 6.44264 9.18723 6.33315 9.50018 6.33315C9.81314 6.33315 9.98968 6.44264 10.096 6.56223C10.2152 6.6964 10.2918 6.89767 10.2918 7.12482C10.2918 7.56204 10.6463 7.91649 11.0835 7.91649C11.5207 7.91649 11.8752 7.56204 11.8752 7.12482C11.8752 6.5603 11.6879 5.96991 11.2794 5.51032C10.8579 5.03617 10.2428 4.74982 9.50018 4.74982Z"
+                                                                            fill="currentColor"></path>
+                                                                        <path
+                                                                            d="M9.50018 11.8748C9.06296 11.8748 8.70852 12.2293 8.70852 12.6665C8.70852 13.1037 9.06296 13.4582 9.50018 13.4582C9.93741 13.4582 10.2918 13.1037 10.2918 12.6665C10.2918 12.2293 9.93741 11.8748 9.50018 11.8748Z"
+                                                                            fill="currentColor"></path>
+                                                                    </svg>
+                                                                    <span class="ps-2">پرسش ها</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item d-flex items-center px-3 text-secondary"
+                                                                href="#">
+                                                                <div class="d-flex">
+                                                                    <svg class="pt-1" width="25" height="25"
+                                                                        viewBox="0 0 21 21" fill="none"
+                                                                        xmlns="http://www.w3.org/2000/svg">
+                                                                        <path
+                                                                            d="M12.7949 6.70662V5.91163C12.7949 4.17764 11.3889 2.7717 9.65495 2.7717H5.50104C3.76791 2.7717 2.36197 4.17764 2.36197 5.91163V15.3953C2.36197 17.1293 3.76791 18.5352 5.50104 18.5352H9.66347C11.3923 18.5352 12.7949 17.1336 12.7949 15.4047V14.6012"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path d="M18.5835 10.6534H8.32356"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                        <path
+                                                                            d="M16.0883 8.16948L18.5833 10.6533L16.0883 13.138"
+                                                                            stroke="currentColor" stroke-width="1.5"
+                                                                            stroke-linecap="round"
+                                                                            stroke-linejoin="round"></path>
+                                                                    </svg>
+                                                                    <span class="ps-2">خروج از حساب کاربری</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="row navbar-bottom bg-dark-subtle mx-5">
+                <div class="container">
+                    <ul class="nav justify-content-center navbar-light">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" لرن کد>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                دوره های آموزشی
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="bg-white rounded-3" style="width: 20rem;">
+                                    <!--  -->
+                                    <div class="grid grid-cols-12 gap-0 ps-4 grid-menu">
+                                        <div class="col-12 lg:col-span-6 pt-5">
+                                            <a href="" class="inline-flex items-start">
+                                                <div class="ml-2">
+                                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle opacity="0.15" cx="15.8062" cy="13.2944" r="9.19385"
+                                                            fill="#3B82F6"></circle>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M16.3214 2.11028C13.881 0.791546 12.2987 2.02656e-06 10.6634 0C9.02798 0 7.44568 0.791542 5.0053 2.11028L4.96149 2.13395L4.96148 2.13395C3.75491 2.78594 2.79516 3.30457 2.14113 3.74635C1.80989 3.97009 1.51103 4.20394 1.28922 4.45865C1.06485 4.7163 0.863281 5.06072 0.863281 5.48803V11.7601C0.863281 12.1931 1.21429 12.5441 1.64729 12.5441C2.08028 12.5441 2.43129 12.1931 2.43129 11.7601V7.41846C2.86981 7.69436 3.41342 8.00017 4.04977 8.34777C3.9992 8.97843 3.99926 9.79355 3.99934 10.8457L3.99935 10.9761C3.99935 14.8961 5.1708 15.6801 10.6364 15.6801C15.7594 15.6801 17.3274 14.8962 17.3274 10.9761C17.3274 9.86231 17.3274 9.00684 17.2715 8.35074C18.0591 7.92059 18.7049 7.5544 19.1856 7.22971C19.5168 7.00597 19.8156 6.77212 20.0375 6.51741C20.2618 6.25976 20.4634 5.91534 20.4634 5.48803C20.4634 5.06072 20.2618 4.7163 20.0375 4.45865C19.8156 4.20394 19.5168 3.97009 19.1856 3.74634C18.5315 3.30456 17.5718 2.78595 16.3652 2.13396L16.3214 2.11028ZM15.7452 9.17551C13.6245 10.3075 12.1664 10.9761 10.6634 10.9761C9.15979 10.9761 7.70108 10.307 5.5791 9.17422C5.56756 9.64289 5.56736 10.2286 5.56736 10.9761C5.56736 12.9088 5.89203 13.32 6.1699 13.5153C6.37815 13.6616 6.76763 13.8294 7.53133 13.9465C8.28954 14.0628 9.2921 14.1121 10.6364 14.1121C11.8908 14.1121 12.8546 14.0632 13.6025 13.947C14.3541 13.8302 14.7819 13.6605 15.0352 13.4922C15.3855 13.2595 15.7594 12.796 15.7594 10.9761C15.7594 10.2283 15.7582 9.643 15.7452 9.17551ZM3.01881 5.0457C2.72862 5.24172 2.56119 5.38576 2.47202 5.48803C2.56119 5.5903 2.72862 5.73434 3.01881 5.93036C3.60046 6.32325 4.49075 6.80543 5.75074 7.48631C8.28467 8.85559 9.50055 9.40805 10.6634 9.40805C11.8262 9.40805 13.042 8.85559 15.5759 7.48631C16.8359 6.80543 17.7262 6.32325 18.3079 5.93036C18.5981 5.73434 18.7655 5.5903 18.8547 5.48803C18.7655 5.38576 18.5981 5.24172 18.3079 5.0457C17.7262 4.65281 16.8359 4.17063 15.576 3.48976C13.042 2.12047 11.8262 1.56801 10.6634 1.56801C9.50055 1.56801 8.28467 2.12047 5.75074 3.48976C4.49075 4.17063 3.60046 4.65281 3.01881 5.0457ZM18.9077 5.55975L18.9067 5.55765C18.9074 5.55906 18.9077 5.55976 18.9077 5.55975ZM18.9077 5.4163L18.9067 5.41838C18.9071 5.41764 18.9073 5.4171 18.9075 5.41676C18.9076 5.41645 18.9077 5.4163 18.9077 5.4163ZM2.42001 5.41841C2.41927 5.417 2.41898 5.4163 2.41902 5.41631L2.42001 5.41841Z"
+                                                            fill="#3B82F6"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h6 class="text-dark">
+                                                        دوره‌های آموزشی
+                                                    </h6>
+                                                    <span class="text-muted">
+                                                        لیست دوره‌های آموزشی ویدیویی
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12 lg:col-span-6 pt-5 pe-2">
+                                            <a href="" class="inline-flex items-start">
+                                                <div class="ml-2">
+                                                    <svg width="22" height="23" viewBox="0 0 22 23" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle opacity="0.15" cx="12.8062" cy="13.2944" r="9.19385"
+                                                            fill="#E81C4D"></circle>
+                                                        <path
+                                                            d="M0.785 3.66683C0.785 4.40379 0.825512 4.94242 0.914603 5.34329C1.00171 5.73525 1.12449 5.94578 1.2561 6.0774C1.38771 6.20901 1.59824 6.33178 1.9902 6.41889C2.39108 6.50798 2.92971 6.5485 3.66667 6.5485C4.40363 6.5485 4.94226 6.50798 5.34313 6.41889C5.73509 6.33178 5.94562 6.20901 6.07723 6.0774C6.20885 5.94578 6.33162 5.73525 6.41873 5.34329C6.50782 4.94242 6.54833 4.40379 6.54833 3.66683C6.54833 2.92987 6.50782 2.39124 6.41873 1.99037C6.33162 1.59841 6.20885 1.38788 6.07723 1.25626C5.94562 1.12465 5.73509 1.00188 5.34313 0.914766C4.94226 0.825675 4.40363 0.785163 3.66667 0.785163C2.92971 0.785163 2.39108 0.825675 1.9902 0.914766C1.59824 1.00188 1.38771 1.12465 1.2561 1.25626C1.12449 1.38788 1.00171 1.59841 0.914603 1.99037C0.825512 2.39124 0.785 2.92987 0.785 3.66683Z"
+                                                            stroke="#E81C4D" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                        <path
+                                                            d="M0.785 12.3333C0.785 13.0703 0.825512 13.6089 0.914603 14.0098C1.00171 14.4018 1.12449 14.6123 1.2561 14.7439C1.38771 14.8755 1.59824 14.9983 1.9902 15.0854C2.39108 15.1745 2.92971 15.215 3.66667 15.215C4.40363 15.215 4.94226 15.1745 5.34313 15.0854C5.73509 14.9983 5.94562 14.8755 6.07723 14.7439C6.20885 14.6123 6.33162 14.4018 6.41873 14.0098C6.50782 13.6089 6.54833 13.0703 6.54833 12.3333C6.54833 11.5964 6.50782 11.0577 6.41873 10.6569C6.33162 10.2649 6.20885 10.0544 6.07723 9.92277C5.94562 9.79115 5.73509 9.66838 5.34313 9.58127C4.94226 9.49218 4.40363 9.45167 3.66667 9.45167C2.92971 9.45167 2.39108 9.49218 1.9902 9.58127C1.59824 9.66838 1.38771 9.79115 1.2561 9.92277C1.12449 10.0544 1.00171 10.2649 0.914603 10.6569C0.825512 11.0577 0.785 11.5964 0.785 12.3333Z"
+                                                            stroke="#E81C4D" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                        <path
+                                                            d="M9.45163 12.3333C9.45163 13.0703 9.49214 13.6089 9.58123 14.0098C9.66834 14.4018 9.79111 14.6123 9.92273 14.7439C10.0543 14.8755 10.2649 14.9983 10.6568 15.0854C11.0577 15.1745 11.5963 15.215 12.3333 15.215C13.0702 15.215 13.6089 15.1745 14.0098 15.0854C14.4017 14.9983 14.6122 14.8755 14.7439 14.7439C14.8755 14.6123 14.9982 14.4018 15.0854 14.0098C15.1744 13.6089 15.215 13.0703 15.215 12.3333C15.215 11.5964 15.1744 11.0577 15.0854 10.6569C14.9982 10.2649 14.8755 10.0544 14.7439 9.92277C14.6122 9.79115 14.4017 9.66838 14.0098 9.58127C13.6089 9.49218 13.0702 9.45167 12.3333 9.45167C11.5963 9.45167 11.0577 9.49218 10.6568 9.58127C10.2649 9.66838 10.0543 9.79115 9.92273 9.92277C9.79111 10.0544 9.66834 10.2649 9.58123 10.6569C9.49214 11.0577 9.45163 11.5964 9.45163 12.3333Z"
+                                                            stroke="#E81C4D" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                        <path
+                                                            d="M12.3333 1.3335V3.66683M12.3333 6.00016V3.66683M12.3333 3.66683H14.6667H10"
+                                                            stroke="#E81C4D" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h6 class="text-dark">
+                                                        مسیرهای یادگیری </h6>
+                                                    <span class="text-muted">
+                                                        مسیرهای یادگیری قدم به قدم برنامه‌نویسی
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!--  -->
+                                    <div class="grid grid-cols-12 gap-0 ps-4 pb-4 grid-menu">
+                                        <div class="col-12 lg:col-span-6 pt-4">
+                                            <a href="" class="inline-flex items-start">
+                                                <div class="ml-2">
+                                                    <svg width="23" height="23" viewBox="0 0 23 23" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle opacity="0.15" cx="13.8062" cy="13.2944" r="9.19385"
+                                                            fill="#FFA826"></circle>
+                                                        <path
+                                                            d="M0.785 8C0.785 9.62908 0.873314 10.8846 1.08987 11.859C1.30444 12.8245 1.63433 13.4652 2.08458 13.9154C2.53483 14.3657 3.17551 14.6956 4.14099 14.9101C5.11539 15.1267 6.37092 15.215 8 15.215C9.62908 15.215 10.8846 15.1267 11.859 14.9101C12.8245 14.6956 13.4652 14.3657 13.9154 13.9154C14.3657 13.4652 14.6956 12.8245 14.9101 11.859C15.1267 10.8846 15.215 9.62908 15.215 8C15.215 6.37092 15.1267 5.11539 14.9101 4.14099C14.6956 3.17551 14.3657 2.53483 13.9154 2.08458C13.4652 1.63433 12.8245 1.30444 11.859 1.08987C10.8846 0.873315 9.62908 0.785 8 0.785C6.37092 0.785 5.11539 0.873315 4.14099 1.08987C3.17551 1.30444 2.53483 1.63433 2.08458 2.08458C1.63433 2.53483 1.30444 3.17551 1.08987 4.14099C0.873314 5.11539 0.785 6.37092 0.785 8Z"
+                                                            stroke="#FFA826" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                        <path
+                                                            d="M7.99996 4.6665V11.3332M11.3333 7.33317V11.3332M4.66663 8.6665V11.3332"
+                                                            stroke="#FFA826" stroke-width="1.57" stroke-linecap="round"
+                                                            stroke-linejoin="round"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h6 class="text-dark">
+                                                        پیشرفت من </h6>
+                                                    <span class="text-muted">
+                                                        مسیر پیشرفت آموزشی شما
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-12 lg:col-span-6 pb-4 pt-4 pe-4">
+                                            <a href="" class="inline-flex items-start">
+                                                <div class="ml-2">
+                                                    <svg width="25" height="23" viewBox="0 0 25 23" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle opacity="0.15" cx="15.8062" cy="13.2944" r="9.19385"
+                                                            fill="#1DBE59"></circle>
+                                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                                            d="M16.3214 2.11028C13.881 0.791546 12.2987 2.02656e-06 10.6634 0C9.02798 0 7.44568 0.791542 5.0053 2.11028L4.96149 2.13395L4.96148 2.13395C3.75491 2.78594 2.79516 3.30457 2.14113 3.74635C1.80989 3.97009 1.51103 4.20394 1.28922 4.45865C1.06485 4.7163 0.863281 5.06072 0.863281 5.48803V11.7601C0.863281 12.1931 1.21429 12.5441 1.64729 12.5441C2.08028 12.5441 2.43129 12.1931 2.43129 11.7601V7.41846C2.86981 7.69436 3.41342 8.00017 4.04977 8.34777C3.9992 8.97843 3.99926 9.79355 3.99934 10.8457L3.99935 10.9761C3.99935 14.8961 5.1708 15.6801 10.6364 15.6801C15.7594 15.6801 17.3274 14.8962 17.3274 10.9761C17.3274 9.86231 17.3274 9.00684 17.2715 8.35074C18.0591 7.92059 18.7049 7.5544 19.1856 7.22971C19.5168 7.00597 19.8156 6.77212 20.0375 6.51741C20.2618 6.25976 20.4634 5.91534 20.4634 5.48803C20.4634 5.06072 20.2618 4.7163 20.0375 4.45865C19.8156 4.20394 19.5168 3.97009 19.1856 3.74634C18.5315 3.30456 17.5718 2.78595 16.3652 2.13396L16.3214 2.11028ZM15.7452 9.17551C13.6245 10.3075 12.1664 10.9761 10.6634 10.9761C9.15979 10.9761 7.70108 10.307 5.5791 9.17422C5.56756 9.64289 5.56736 10.2286 5.56736 10.9761C5.56736 12.9088 5.89203 13.32 6.1699 13.5153C6.37815 13.6616 6.76763 13.8294 7.53133 13.9465C8.28954 14.0628 9.2921 14.1121 10.6364 14.1121C11.8908 14.1121 12.8546 14.0632 13.6025 13.947C14.3541 13.8302 14.7819 13.6605 15.0352 13.4922C15.3855 13.2595 15.7594 12.796 15.7594 10.9761C15.7594 10.2283 15.7582 9.643 15.7452 9.17551ZM3.01881 5.0457C2.72862 5.24172 2.56119 5.38576 2.47202 5.48803C2.56119 5.5903 2.72862 5.73434 3.01881 5.93036C3.60046 6.32325 4.49075 6.80543 5.75074 7.48631C8.28467 8.85559 9.50055 9.40805 10.6634 9.40805C11.8262 9.40805 13.042 8.85559 15.5759 7.48631C16.8359 6.80543 17.7262 6.32325 18.3079 5.93036C18.5981 5.73434 18.7655 5.5903 18.8547 5.48803C18.7655 5.38576 18.5981 5.24172 18.3079 5.0457C17.7262 4.65281 16.8359 4.17063 15.576 3.48976C13.042 2.12047 11.8262 1.56801 10.6634 1.56801C9.50055 1.56801 8.28467 2.12047 5.75074 3.48976C4.49075 4.17063 3.60046 4.65281 3.01881 5.0457ZM18.9077 5.55975L18.9067 5.55765C18.9074 5.55906 18.9077 5.55976 18.9077 5.55975ZM18.9077 5.4163L18.9067 5.41838C18.9071 5.41764 18.9073 5.4171 18.9075 5.41676C18.9076 5.41645 18.9077 5.4163 18.9077 5.4163ZM2.42001 5.41841C2.41927 5.417 2.41898 5.4163 2.41902 5.41631L2.42001 5.41841Z"
+                                                            fill="#1DBE59"></path>
+                                                    </svg>
+                                                </div>
+                                                <div>
+                                                    <h6 class="text-dark">
+                                                        دوره‌های رایگان
+                                                    </h6>
+                                                    <span class="text-muted">
+                                                        برای شروع بدون هزینه آموزش ببینید
+                                                    </span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">پرسش و پاسخ ها</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">مقالات</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">لرن کد کست</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">لرن کد نامه<span class="badge bg-danger ms-2">جدید</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                لینک های مفید
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">کانال تلگرام</a></li>
+                                <li><a class="dropdown-item" href="#">سوالات متداول</a></li>
+                                <li><a class="dropdown-item" href="#">درباره ما</a></li>
+                                <li><a class="dropdown-item" href="#">ارتباط با ما</a></li>
+                                <li><a class="dropdown-item" href="#">همکاری با ما</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </nav>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="mt-2">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="fw-bold">داستان برنامه‌نویس شدنت از اینجا شروع میشه!</h2>
+                    <h6 class="fw-bold">یادگیری برنامه‌نویسی آرزو نیست، فقط نیاز هست، تلاش و تمرین داشته باشید، بقیه‌اش
+                        با لرن کد</h6>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div>
+                        <svg id="character-background-area" viewBox="0 0 708 694" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <path opacity="0.47"
+                                d="M51.1106 140.823C55.3792 113.059 78.8827 92.4646 106.966 91.5975C150.364 90.2575 214.276 88.963 261.947 90.8933C308.471 92.7773 370.164 98.9734 413.214 103.774C442.528 107.042 464.78 131.482 465.326 160.973C467.106 257.034 464.32 326.677 454.913 420.963C451.926 450.905 426.877 473.683 396.785 473.919C353.601 474.258 292.51 474.271 246.498 472.407C199.354 470.498 136.591 465.347 93.4387 461.482C64.8438 458.921 42.1923 436.225 40.1612 407.599C33.1808 309.221 36.0823 238.57 51.1106 140.823Z"
+                                stroke="#B8C4D3" stroke-width="1.26326"></path>
+                            <path opacity="0.47"
+                                d="M79.2298 107.62C88.3548 81.0534 115.138 64.9539 142.93 69.0812C185.878 75.4592 249.006 85.52 295.579 95.8744C341.031 105.979 400.648 123.019 442.163 135.378C470.433 143.794 487.998 171.792 483.305 200.913C468.02 295.767 452.927 363.812 426.948 454.935C418.698 483.873 390.006 501.847 360.349 496.742C317.789 489.417 257.665 478.595 212.713 468.601C166.654 458.361 105.8 442.159 64.0174 430.703C36.33 423.111 18.0628 396.758 21.1407 368.225C31.7186 270.169 47.1041 201.152 79.2298 107.62Z"
+                                stroke="#B8C4D3" stroke-width="1.26326"></path>
+                        </svg>
+                        <div style="position: absolute; top: 13.8rem; left: 5rem; height: 34rem; width: 32rem;">
+                            <img src="./Images/images/14.png" class="" alt="...">
+                        </div>
+                    </div>
+                    <div>
+                        <svg class="text-gray-920 dark:text-gray-930" width="98" height="129" viewBox="0 0 98 129"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M47.029 72.7354C50.0557 71.6329 52.8873 70.0549 55.4172 68.061C57.918 66.0579 60.1214 63.7096 61.9613 61.0864C63.8091 58.5597 65.3461 55.8197 66.5391 52.9257C67.7364 50.0386 68.4208 46.9647 68.5614 43.8423C68.6206 42.2624 68.4539 40.6823 68.0664 39.1495C67.6842 37.5558 66.9595 36.0643 65.9428 34.7789C64.7806 33.3631 63.1784 32.3767 61.3909 31.9766C59.5532 31.6118 57.6498 31.7712 55.8983 32.4365C55.0759 32.7319 54.2792 33.094 53.5159 33.5193C52.8228 33.9419 52.1521 34.4002 51.5067 34.8924C50.8464 35.3833 50.2154 35.9122 49.6168 36.4767L48.7047 37.3268L47.9174 38.176C45.9117 40.3826 44.1355 42.7873 42.6161 45.3531C41.0832 47.8361 39.9117 50.5248 39.1369 53.3382C38.4021 56.0043 38.062 58.7636 38.1276 61.5283L38.1352 62.5269L38.2181 63.5108C38.2949 64.1638 38.3506 64.8288 38.426 65.4547C38.6641 66.713 38.8388 68.0071 39.1613 69.2176C39.3611 69.9404 39.5715 70.6571 39.797 71.3514C39.1183 71.4567 38.4336 71.5514 37.7521 71.6025C35.0578 71.8377 32.3439 71.7042 29.6857 71.2059C27.1472 70.7067 24.7021 69.8151 22.4382 68.5631C18.1815 66.0403 14.5592 62.5759 11.8492 58.4358C9.29381 54.5665 7.28986 50.3601 5.89515 45.9379C4.59231 41.9013 3.61834 37.7659 2.98278 33.5722C2.37826 29.925 2.02126 26.2411 1.91425 22.5457C1.70973 17.104 2.3983 11.6657 3.9526 6.44679C5.16315 2.72557 6.29982 0.745502 6.07447 0.691869C5.84913 0.638235 5.6891 1.11877 5.13313 2.03216C4.35997 3.37851 3.68579 4.77932 3.11593 6.22352C1.15449 11.494 0.148942 17.0721 0.146538 22.6957C0.0827322 30.8741 1.20309 39.0187 3.47277 46.8761C4.84019 51.5314 6.86593 55.9674 9.48854 60.0495C12.359 64.5675 16.2315 68.3638 20.8056 71.144C23.3087 72.5646 26.0167 73.5892 28.8333 74.1813C31.7991 74.7897 34.8346 74.9853 37.8539 74.7626C38.8963 74.7008 39.9342 74.5788 40.9626 74.3974C42.0487 77.0395 43.365 79.5811 44.8961 81.9928C49.0382 88.373 54.1048 94.1027 59.9301 98.9944C64.1151 102.568 68.5796 105.8 73.2808 108.66C78.4719 111.87 83.9951 114.51 89.7538 116.532C90.4657 116.756 91.0559 116.938 91.5846 117.085L89.8096 117.517C87.9185 118.016 86.1129 118.591 84.4109 119.178C81.4044 120.241 78.4811 121.526 75.6654 123.024C70.8732 125.609 68.3039 127.814 68.5339 128.171C68.7639 128.529 71.7657 127.137 76.6077 125.207C79.0452 124.246 81.9645 123.152 85.2533 122.17C86.8948 121.673 88.6234 121.183 90.4314 120.76C91.3377 120.539 92.2605 120.324 93.2012 120.14C93.6785 120.024 94.0938 119.97 94.7849 119.788C95.6863 119.554 96.4869 119.033 97.0653 118.303C97.3671 117.906 97.5841 117.452 97.7028 116.967C97.7854 116.588 97.8184 116.199 97.8012 115.811C97.7666 115.238 97.6738 114.67 97.5245 114.115C97.2833 113.221 97.0481 112.337 96.8248 111.474C96.3407 109.756 95.8652 108.103 95.4151 106.519C94.4514 103.387 93.4861 100.645 92.63 98.3437C90.8863 93.7582 89.4203 90.9936 88.9623 91.169C88.5044 91.3445 89.0609 94.3727 90.2022 99.1736C90.8155 101.613 91.4858 104.423 92.2553 107.582L93.4801 112.53C93.6928 113.399 93.9055 114.268 94.1136 115.153L94.1554 115.227C93.4908 114.864 92.5499 114.408 91.1826 113.788C85.8335 111.319 80.6587 108.489 75.6942 105.317C71.2264 102.459 66.9737 99.2775 62.9701 95.7986C57.4752 91.1225 52.6808 85.6811 48.7339 79.6412C47.4482 77.6274 46.327 75.5132 45.3812 73.3191C45.9369 73.1441 46.4926 72.9692 47.0409 72.7565L47.029 72.7354ZM43.4862 67.8998C43.1601 66.8307 43.0267 65.7082 42.7956 64.5853C42.7124 64.0195 42.6833 63.4509 42.6107 62.8791L42.5228 62.0095L42.5221 61.1462C42.4528 58.7661 42.7319 56.3886 43.3504 54.0892C44.0065 51.6603 45.0047 49.337 46.315 47.1891C47.665 44.8794 49.2338 42.7048 50.9997 40.6951L51.6783 39.9492L52.3986 39.2772C52.8665 38.8172 53.3632 38.3874 53.8856 37.9904C54.3858 37.6017 54.9076 37.2415 55.4484 36.9115C55.9708 36.6141 56.5172 36.361 57.0819 36.1548C58.0155 35.7022 59.0732 35.5735 60.0881 35.7891C61.1029 36.0046 62.017 36.5521 62.6861 37.3451C64.0769 39.295 64.7488 41.6667 64.5873 44.0563C64.4873 46.7312 63.924 49.3685 62.9226 51.8509C61.88 54.4673 60.5227 56.9469 58.8806 59.2351C57.2951 61.5697 55.386 63.6671 53.2105 65.4645C51.0022 67.2219 48.5304 68.6198 45.8864 69.6068C45.3169 69.8314 44.7296 70.0243 44.1633 70.2053C43.902 69.4477 43.6558 68.6676 43.4234 67.8379"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="margin-right: 0;">
+            <div>
+                <div class="d-flex justify-content-between mb-4 ms-3">
+                    <div class="d-flex items-center align-self-start">
+                        <svg class="text-dark-550 dark:text-white ml-4" width="37" height="34" viewBox="0 0 37 34"
+                            fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="10" cy="24" r="10" fill="currentColor"></circle>
+                            <circle cx="30" cy="13" r="7" fill="currentColor" fill-opacity="0.4"></circle>
+                            <circle cx="15" cy="4" r="4" fill="currentColor" fill-opacity="0.7"></circle>
+                        </svg>
+                        <h3>آخرین دوره ها</h3>
+                    </div>
+                    <div class="align-self-end">
+                        <a href="..." class="d-flex items-center text-decoration-none">
+                            <span class="text-dark">مشاهده همه دوره ها</span>
+                            <svg width="23" height="15" viewBox="0 0 23 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    class="fill-current transition duration-200 text-dark-550 dark:group-hover:text-gray-20 dark:text-white group-hover:text-dark-700"
+                                    opacity="0.4"
+                                    d="M16.5073 5.95329L21.0752 5.54932C22.1003 5.54932 22.9315 6.38856 22.9315 7.42367C22.9315 8.45878 22.1003 9.29802 21.0752 9.29802L16.5073 8.89404C15.7031 8.89404 15.0511 8.23571 15.0511 7.42367C15.0511 6.61027 15.7031 5.95329 16.5073 5.95329">
+                                </path>
+                                <path
+                                    class="fill-current transition duration-200 text-dark-550 dark:group-hover:text-gray-20 dark:text-white group-hover:text-dark-700"
+                                    d="M1.16786 6.02753C1.23926 5.95544 1.50598 5.65076 1.75653 5.39776C3.21811 3.81313 7.03437 1.22195 9.03073 0.428959C9.33382 0.302461 10.1003 0.0331419 10.5112 0.0140991C10.9032 0.0140991 11.2776 0.105232 11.6346 0.284778C12.0805 0.536415 12.4361 0.933592 12.6328 1.4015C12.7581 1.72523 12.9548 2.69777 12.9548 2.71545C13.1501 3.77776 13.2565 5.50521 13.2565 7.41493C13.2565 9.23215 13.1501 10.8889 12.9898 11.9689C12.9723 11.9879 12.7756 13.1944 12.5614 13.6079C12.1694 14.3642 11.4029 14.8321 10.5826 14.8321H10.5112C9.97638 14.8144 8.85292 14.3451 8.85292 14.3288C6.96297 13.5358 3.23697 11.0698 1.73902 9.43074C1.73902 9.43074 1.31604 9.00908 1.13284 8.74656C0.84726 8.36843 0.70447 7.90052 0.70447 7.43261C0.70447 6.9103 0.864772 6.42471 1.16786 6.02753">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="container text-center ms-2 mb-5">
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 d-flex justify-content-between">
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/1.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 d-flex justify-content-between">
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/6.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/7.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                    <!-- <div class="card-footer"><hr class="dropdown-divider"></div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3">
+                                <div class="card">
+                                    <img src="./Images/8.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the bulk of the card's content.</p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="bg-dark mx-2 rounded-3">
+        <div class="container">
+            <div class="row g-4 align-items-center pt-5 ps-4 pb-5">
+                <div class="col-md-4 text-white" style="padding-left: 4rem;">
+                    <h4 class="fw-bold">از گوشه و اطراف دنیای برنامه‌نویسی</h4>
+                    <p class="fw-bold">نوشتن کار جالبیه که از هزاران سال همراه ما بوده و کمک کرده تا همیشه به روز باشیم،
+                        ما در لرن کد فضای رو به شکلی آماده کردیم تا شما بتونید ایده‌ها و مطالب جالب حوزه برنامه‌نویسی رو
+                        در اختیار هزاران برنامه‌نویس عضو لرن کد قرار بدید.</p>
+                    <button class="btn btn-primary mb-4">مشاهده همه مطالب</button>
+                </div>
+                <div class="col-md-8">
+                    <div class="row" style="padding-right: 4rem;">
+                        <div class="col-md-6">
+                            <div class="card shadow mb-4">
+                                <img src="./Images/9.jpg" class="card-img-top p-2" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./Images/10.jpg" class="card-img-top p-2" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-5">
+                            <div class="card shadow mb-4">
+                                <img src="./Images/11.jpg" class="card-img-top p-2" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./Images/12.jpg" class="card-img-top p-2" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the bulk of the card's content.</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light pt-5 pb-5">
+        <div class="container">
+            <div class="row ps-1">
+                <div class="col-md-4">
+                    <h4 class="fw-bold">درباره لرن کد</h4>
+                    <p class="text-muted">
+                        لرن کد یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران است که همیشه تلاش کرده تا
+                        بتواند جدیدترین و بروزترین مقالات و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد.
+                        تبدیل کردن برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست.
+                    </p>
+                </div>
+                <div class="col-md-7 offset-md-1">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6 class="fw-bold footer-header w-75">بخش های وبسایت</h6>
+                            <ul class="text-primary">
+                                <li>
+                                    <a class="footer-link" href="#">قوانین و مقررات</a>
+                                </li>
+                                <li class="my-2">
+                                    <a class="footer-link" href="#لرن کد نامه<span
+                                            class=" badge bg-danger ms-2">جدید</span></a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#">مدرسان لرن کد</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="footer-link" href="#">درباره ما</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="footer-link" href="#">ارتباط با ما</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="fw-bold footer-header w-75">محبوب‌ترین آموزش‌ها</h6>
+                            <ul class="text-primary">
+                                <li>
+                                    <a class="footer-link" href="#">آموزش جاوا اسکریپت</a>
+                                </li>
+                                <li class="my-2">
+                                    <a class="footer-link" href="#">آموزش لاراول</a>
+                                </li>
+                                <li>
+                                    <a class="footer-link" href="#">آموزش پایتون</a>
+                                </li>
+                                <li class="mt-2">
+                                    <a class="footer-link" href="#">آموزش react</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6 class="fw-bold footer-header w-75">ارتباط با ما</h6>
+                            <ul class="list-unstyled text-muted">
+                                <li class="d-flex items-center justify-content-evenly">
+                                    <span class="pt-1 pe-1">
+                                        <svg class="dark:text-blue-950 text-blue-980 absolute -top-1 -left-2" width="17"
+                                            height="15" viewBox="0 0 17 15" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.5632 4.17184C15.4183 3.54105 15.2294 3.0782 15.0064 2.72729C14.2794 3.41662 13.3594 4.25301 12.3603 4.98727C10.9828 5.99965 9.61574 6.69415 8.50008 6.69415C7.38443 6.69415 6.01733 5.99965 4.63986 4.98727C3.64079 4.25301 2.72075 3.41662 1.99377 2.72729C1.77081 3.0782 1.58187 3.54105 1.437 4.17184C1.43013 4.20176 1.42338 4.23196 1.41675 4.26247C2.07618 4.86961 2.86033 5.55149 3.70121 6.1695C5.10702 7.2027 6.83246 8.18184 8.50008 8.18184C10.1677 8.18184 11.8931 7.2027 13.299 6.1695C14.1398 5.55149 14.924 4.86961 15.5834 4.26246C15.5768 4.23196 15.57 4.20176 15.5632 4.17184Z"
+                                                fill="currentColor"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 7.5C0 13.6762 1.50025 15 8.5 15C15.4997 15 17 13.6762 17 7.5C17 1.32375 15.4997 0 8.5 0C1.50025 0 0 1.32375 0 7.5ZM8.5 13.75C6.7824 13.75 5.49884 13.6672 4.5262 13.4764C3.56964 13.2889 3.0028 13.0139 2.62683 12.6822C2.25086 12.3505 1.9393 11.8503 1.72671 11.0063C1.51055 10.1481 1.41667 9.01553 1.41667 7.5C1.41667 5.98447 1.51055 4.85192 1.72671 3.99371C1.9393 3.14968 2.25086 2.64953 2.62683 2.31779C3.0028 1.98605 3.56964 1.71115 4.5262 1.52357C5.49884 1.33284 6.7824 1.25 8.5 1.25C10.2176 1.25 11.5012 1.33284 12.4738 1.52357C13.4304 1.71115 13.9972 1.98605 14.3732 2.31779C14.7491 2.64953 15.0607 3.14968 15.2733 3.99371C15.4895 4.85192 15.5833 5.98447 15.5833 7.5C15.5833 9.01553 15.4895 10.1481 15.2733 11.0063C15.0607 11.8503 14.7491 12.3505 14.3732 12.6822C13.9972 13.0139 13.4304 13.2889 12.4738 13.4764C11.5012 13.6672 10.2176 13.75 8.5 13.75Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                        <a class="footer-link" href="#">ایمیل:</a>
+                                    </span>
+                                    <a class="pt-1" href="#">info@LearnCode</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
